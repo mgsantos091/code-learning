@@ -1,18 +1,18 @@
-package excercicioJavaUti;
+package alura.excercicioJavaUti;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 
-// Crie um código que insira 30 mil números numa ArrayList e pesquise-os. Vamos usar um método de System para cronometrar o tempo gasto:
+// Crie um cï¿½digo que insira 30 mil nï¿½meros numa ArrayList e pesquise-os. Vamos usar um mï¿½todo de System para cronometrar o tempo gasto:
 public class TestaPerformance {
 	public static void main(String[] args) {
 		System.out.println("Iniciando...");
 //		Collection<Integer> teste = new ArrayList<>(); // Tempo gasto: 407
-// No caso das listas (ArrayList e LinkedList), a inserção é bem rápida e a busca muito lenta!
+// No caso das listas (ArrayList e LinkedList), a inserï¿½ï¿½o ï¿½ bem rï¿½pida e a busca muito lenta!
 
         Collection<Integer> teste = new HashSet<>(); // Tempo gasto: 11
-        // No caso dos conjuntos (TreeSet e HashSet), a inserção ainda é rápida, embora um pouco mais lenta do que a das listas. E a busca é muito rápida!
+        // No caso dos conjuntos (TreeSet e HashSet), a inserï¿½ï¿½o ainda ï¿½ rï¿½pida, embora um pouco mais lenta do que a das listas. E a busca ï¿½ muito rï¿½pida!
 		long inicio = System.currentTimeMillis();
 
 		int total = 30000;

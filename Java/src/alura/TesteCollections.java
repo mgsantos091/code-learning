@@ -1,3 +1,4 @@
+package alura;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -56,8 +57,8 @@ public class TesteCollections {
 
 		/*
 		 * deve retornar zero, se o objeto comparado for igual a este objeto, 
-		 * um número negativo, se este objeto for menor que o objeto dado, 
-		 * e um número positivo, se este objeto for maior que o objeto dado
+		 * um nï¿½mero negativo, se este objeto for menor que o objeto dado, 
+		 * e um nï¿½mero positivo, se este objeto for maior que o objeto dado
 		 * */
 		@Override
 		public int compareTo(ContaCorrente o) {

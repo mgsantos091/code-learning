@@ -1,3 +1,4 @@
+package alura;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -8,8 +9,8 @@ import java.io.InputStreamReader;
 public class TesteCsv {
   public static void main(String args[]) {
 	  try {
-		InputStream is = new FileInputStream("C:\\Users\\mgsantos\\Documents\\pessoal\\investimento\\estudo\\mestrado-computação\\unifesp\\g_t\\aula_1.txt"); // Responsável por ler o byte
-		InputStreamReader isr = new InputStreamReader(is,"UTF-8"); // Recupera os caracteres através dos bytes lidos
+		InputStream is = new FileInputStream("C:\\Users\\mgsantos\\Documents\\pessoal\\investimento\\estudo\\mestrado-computaï¿½ï¿½o\\unifesp\\g_t\\aula_1.txt"); // Responsï¿½vel por ler o byte
+		InputStreamReader isr = new InputStreamReader(is,"UTF-8"); // Recupera os caracteres atravï¿½s dos bytes lidos
 		BufferedReader br = new BufferedReader(isr); // Transforma os caracteres em Strings
 		String texto = new String();
 		while((texto = br.readLine()) != null) {

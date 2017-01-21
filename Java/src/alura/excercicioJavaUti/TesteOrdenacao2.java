@@ -1,4 +1,4 @@
-package excercicioJavaUti;
+package alura.excercicioJavaUti;
 
 import java.util.ArrayList;
 import java.util.Collections;

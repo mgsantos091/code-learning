@@ -1,4 +1,4 @@
-package excercicioJavaUti;
+package alura.excercicioJavaUti;
 
 public class ContaPoupanca extends Conta implements Comparable<ContaPoupanca> {
 
